@@ -1,0 +1,28 @@
+/************************************************************************************************/
+力量可视化项目----第二个系统
+
+管脚配置
+左心率: PB1->SCL PB0->SDA 
+右心率: PB8->SCL PB9->SDA
+
+左臂升力: PD1->Data PD2->SCK
+右臂升力: PD3->Data PD4->SCK
+左大腿力: PD5->Data PD6->SCK
+右大腿力: PD8->Data PD9->SCK
+背扩力左: PD10->Data PD11->SCK
+背扩力右: PD14->Data PD15->SCK
+体    重: PD12->Data PD13->SCK
+
+大电机
+PA7->STEP
+PA6->DIR
+
+PB12->RGB1
+PB13->RGB2
+PB4->RGB3
+PB5->RGB4
+PB6->RGB5
+PB7->RGB6
+
+PC9->中断检测引脚
+PC1,PC2->微动按键中断触发引脚
